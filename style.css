@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+    font-family: 'Roboto';
+    color: pink;
+}
+
+.container {
+    max-height: 90vh;
+    padding: 20px 30px;
+}
+
+h1 {
+    display: inline-block;
+    max-height: 10vh;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: pink;
+    color: #000;
+}
+
+.result {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+span {
+    font-size: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* font-weight: nowrap; */
+    align-items: center;
+    width: 100%;
+}
+
+.form button {
+    width: 30%;
+    padding: 10px 15px;
+    background: pink;
+    border: none;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+}
+
+.form button:hover {
+    background: rgb(255, 150, 167);
+}
+
+.settings {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.settings label:first-child {
+    margin-right: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 20px;
+}
